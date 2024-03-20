@@ -15,8 +15,6 @@ func supportedOptions(o []dns.EDNS0) []dns.EDNS0 {
 			fallthrough
 		case dns.EDNS0EXPIRE:
 			fallthrough
-		case dns.EDNS0COOKIE:
-			fallthrough
 		case dns.EDNS0TCPKEEPALIVE:
 			fallthrough
 		case dns.EDNS0PADDING:
